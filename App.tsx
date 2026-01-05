@@ -1,7 +1,9 @@
-
 import React, { useState, useCallback, useMemo } from 'react';
 import { QUESTIONS, DIAGNOSIS_DATA } from './constants';
 import { AssessmentResult, Option } from './types';
+import { GoogleGenerativeAI } from "@google/generative-ai"; // Tambahkan ini
+
+const genAI = new GoogleGenerativeAI("AIzaSyCi74jYW_Ow8uN8T2lq_7EzXvf6voa2j_s"); // Key kamu langsung di sini
 
 export default function App() {
   const [step, setStep] = useState<'welcome' | 'quiz' | 'result'>('welcome');
