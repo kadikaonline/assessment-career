@@ -1,9 +1,7 @@
-import React, { useState, useCallback, useMemo } from 'react';
-import { QUESTIONS, DIAGNOSIS_DATA } from './constants';
-import { AssessmentResult, Option } from './types';
-import { GoogleGenerativeAI } from "@google/generative-ai"; // Tambahkan ini
 
-const genAI = new GoogleGenerativeAI("AIzaSyCi74jYW_Ow8uN8T2lq_7EzXvf6voa2j_s"); // Key kamu langsung di sini
+import React, { useState, useMemo } from 'react';
+import { QUESTIONS, DIAGNOSIS_DATA } from './constants';
+import { Option } from './types';
 
 export default function App() {
   const [step, setStep] = useState<'welcome' | 'quiz' | 'result'>('welcome');
@@ -202,7 +200,7 @@ export default function App() {
           href="https://impactfulwriting.com" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="hover:text-indigo-600 underline decoration-indigo-200 transition-colors"
+          className="hover:text-indigo-600 underline decoration-indigo-200 transition-colors font-semibold"
         >
           Impactful Writing
         </a>

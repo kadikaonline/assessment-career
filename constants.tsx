@@ -72,15 +72,15 @@ export const DIAGNOSIS_DATA = {
   'Copywriter-Specialist': {
     description: "Kamu adalah 'Si Penulis Persuasif'! Kamu tau banget kata-kata mana yang bikin orang langsung 'Gatel' pengen klik tombol beli. Tulisanmu tajam, singkat, dan sangat 'to the point'.",
     advice: "Kuasai teknik-teknik copywriting seperti PAS, AIDA, dan storytelling pendek. Fokus pada landing page dan ads copy.",
-    productName: "The Profitable Copywriter",
-    productLink: "#",
-    productDesc: "Bongkar rahasia nulis copy yang konversinya tinggi dan disukai klien kakap."
+    productName: "Certified Impactful Writer",
+    productLink: "https://certifiedimpactfulwriter.com",
+    productDesc: "Bongkar rahasia nulis copy yang konversinya tinggi dan disukai klien kakap melalui sertifikasi resmi."
   },
   'Copywriter-Strategist': {
     description: "Kamu adalah 'Otak di Balik Penjualan'! Kamu melihat copywriting sebagai bagian dari mesin uang (sales funnel). Kamu lebih suka mikirin 'kenapa' orang beli daripada cuma sekadar nulis headline.",
     advice: "Lanjutkan belajar Sales Funnel, Email Marketing, dan Conversion Rate Optimization (CRO). Skill-mu harganya mahal banget!",
-    productName: "Sales Funnel Mastery",
-    productLink: "#",
-    productDesc: "Belajar ngerancang strategi penjualan end-to-end yang bikin bisnis auto-scale."
+    productName: "Certified Impactful Writer",
+    productLink: "https://certifiedimpactfulwriter.com",
+    productDesc: "Belajar ngerancang strategi copywriting end-to-end yang impactful dan punya nilai jual tinggi."
   }
 };
